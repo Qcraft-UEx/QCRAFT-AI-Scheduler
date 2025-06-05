@@ -8,7 +8,7 @@
 
 
 
-# QCRAFT-Scheduler
+# QCRAFT-AI-Scheduler
 QCRAFT Scheduler: A tool to optimize the scheduling of quantum tasks in quantum computing environments by combining quantum circuits. 
 
 The scheduler has the following main functions:
@@ -21,7 +21,13 @@ The scheduler has the following main functions:
 
 4. **Combined Circuit Execution:** Once the circuits have been combined, the scheduler schedules the execution of the combined circuit in the quantum machine. The results of this execution are a combination of the results of each individual circuit.
 
-5. **Unscheduling of the results:** These results go through a unscheduling process to divide the results by user, and are stored in a database.
+5. **Unscheduling of the results:** These results go through a unscheduling process to divide the results by user, and are stored in a database.ç
+
+## What's New
+
+1. Two new policies have been added: the AI policy and the Dynamic Programming policy. Both reach the machine's maximum allowed number of qubits for execution.
+
+2. Additionally, these policies implement a priority system that gives preference to circuits that have been in the queue the longest, ensuring that none remain stuck in the queue.
 
 ![Python Versions](https://img.shields.io/badge/python-3.9%20|%203.10%20|%203.11%20|%203.12-blue.svg)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Qcraft-UEx/QCRAFT/blob/main/LICENSE)
