@@ -1,0 +1,13 @@
+Para la ejecución de cada programa se debe:
+Instalar todas las dependencias necesarias, estas también sirve para el uso de scheduler (Se recomiendo el uso de un entorno virtual).
+
+1º CREACIÓN DE ENTORNO VIRTUAL (Opcional)
+python -m venv MI_ENTORNO
+
+2º ACTIVAR ENTORNO (Opcional)
+source MI_ENTORNO/bin/activate
+
+3º INSTALAR DEPENDENCIAS 
+pip install -r requirements.txt
+
+Ademas en el archivo CONFIG.PY se encuentra algunas parámetros modificables por el usuario.
